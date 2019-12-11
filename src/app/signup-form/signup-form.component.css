@@ -1,14 +1,27 @@
+.background {
+    background-color: gray}
+.topbar {
+    background-color: #480E6A;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
 .ssg-insight-logo-colour {	height: 156px;	width: 468px;}
 
-.portal {	
+.label {	
     height: 27px;	
     width: 57px;	
-    color: #480E6A;	
     font-family: "IBM Plex Sans";	
     font-size: 20px;	
     font-weight: 600;	
     line-height: 27px;	
-    text-align: center;
+}
+
+.purple {
+    color: #480E6A;	
 }
 
 .action-button{
