@@ -12,4 +12,8 @@ export class SignupFormComponent {
     'username': new FormControl(),
     'password': new FormControl()
   });
+
+  Clicked(aButton) {
+    //console.log(aButton.target.attributes['id']);
+  }
 }
