@@ -58,3 +58,19 @@
     display: flex;
     align-items: center;
   }
+
+a.primary {
+    color: white !important;
+}
+
+a.bg-primary {
+    background-color: #480E6A !important;
+  }
+
+  a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus {
+  background-color: #480E6A !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}

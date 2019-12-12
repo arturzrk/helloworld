@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { SignupFormComponent } from './signup-form/signup-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SiteViewComponent } from './site-view/site-view.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactFormComponent,
-    SignupFormComponent
+    SignupFormComponent,
+    SiteViewComponent
   ],
   imports: [
     BrowserModule,
